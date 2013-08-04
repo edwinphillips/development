@@ -68,16 +68,20 @@
     </script>
 </head>
 <body onload="init()">
-    <video src="assets/cityrunningexp.mp4" id="vid"
-           style="position:absolute; top: 10; left: 10;">
+
+    <video id="vid" style="position:absolute; top: 10; left: 10;">
+        <source src="assets/cityrunningexp.mp4" >
+        <source src="assets/cityrunningexp.ogg" type="video/ogg">
+        Get a better browser.
     </video>
+
     <canvas id="can" height="270" width="480"
             style="position:absolute; top: 10; left: 10;">
     </canvas>
+
     <p style="position:absolute; top: 300; left: 50;">
-        <input id="play" type="button" value="Play" onclick="playVideo()"
-               style="font:18pt Helvetica" />
+        <input id="play" type="button" value="Play" onclick="playVideo()"/>
     </p>
-    <p>http://developer.apple.com/library/safari/#documentation/AudioVideo/Conceptual/HTML-canvas-guide/PuttingVideoonCanvas/PuttingVideoonCanvas.html</p>
+
 </body>
 </html>
