@@ -1,0 +1,9 @@
+<?php
+
+$PayPalMode         = 'sandbox'; // sandbox or live
+$PayPalApiUsername  = ''; //PayPal API Username
+$PayPalApiPassword  = ''; //Paypal API password
+$PayPalApiSignature = ''; //Paypal API Signature
+$PayPalCurrencyCode = 'GBP'; //Paypal Currency Code
+$PayPalReturnURL    = 'http://process.php'; //Point to process.php page
+$PayPalCancelURL    = 'http://cancel.php'; //Cancel URL if user clicks cancel
