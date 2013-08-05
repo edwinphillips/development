@@ -1,0 +1,9 @@
+Options +Indexes
+IndexIgnore icon awstats-icon awstatsicons stats robots.txt
+AuthUserFile "/home/development/public_html/htusers"
+AuthType Basic
+AuthName "Development area"
+require valid-user
+<Files htusers>
+deny from all
+</Files>
