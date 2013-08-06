@@ -2,7 +2,7 @@
 include_once("config.php");
 ?>
 <html>
-<head></head>
+<head>Paypal Express Checkout</head>
 <body>
 
     <form method="post" action="process.php">
